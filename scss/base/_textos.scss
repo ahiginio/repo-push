@@ -1,0 +1,324 @@
+$fontamatic : 'Amatic SC', cursive;
+
+/* Textos */  
+h1, h2, h3, h4 {
+    font-weight: 800;
+    font-size: 3em;
+    font-family: $fontamatic;
+    font-display: swap;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .icon {
+    h2 {
+      font-size: 2em;
+      padding-top: 5%;
+    }
+  
+    p {
+      font-size: 0.8em;
+    }
+  }
+  %social {
+      border-radius: 120px;
+      width: 40px;
+      height: 40px;
+      position: relative;
+  }
+  i.fab {
+    &.fa-instagram {
+      background-color: #E1306C;
+     @extend %social;
+    }
+  
+    &.fa-facebook {
+      background-color: #3b5998;
+      @extend %social;
+    }
+  
+    &.fa-whatsapp {
+      background-color: #25d366;
+      @extend %social;
+    }
+  }
+  
+  .social.footer-item i {
+    padding: 10px 0;
+    font-size: 20px;
+    color: $color-font-white;
+  }
+  
+  .btn-submit {
+    color: $color-font-white;
+    background: $color-primary;
+    border-style: none;
+    font-weight: 800;
+    font-size: 1.5em;
+    font-family: $fontamatic;
+    font-display: swap;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+  
+    &:hover {
+      background: $color-font-white;
+      color: $color-primary;
+      transition: 10s;
+      transition-timing-function: cubic-bezier(0.58, 0.3, 0.005, 1);
+      -webkit-transition: .3s;
+      transform: scale(1.1, 1.1);
+    }
+  }
+  
+  .form-contact {
+    font-family: 'Roboto', sans-serif;
+    font-display: swap;
+  }
+  
+  .form-control {
+    height: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+  
+    &:focus {
+      border-color: $color-primary;
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(243, 243, 243, 0.918);
+    }
+  }
+  
+  .servicio-description p {
+    font-family: $fontamatic;
+    font-display: swap;
+    font-weight: 800;
+    font-size: 2em;
+  }
+  
+  p {
+    color: $color-text-primary;
+    font-size: 1em;
+  }
+  
+  .equipo h2 {
+    font-size: 2em;
+    margin-bottom: 2px;
+  }
+  
+  #servicios, #serviciospage {
+    text-align: center;
+  }
+  
+  #servicios a {
+    text-decoration: none;
+    color: $color-text-primary;
+  
+    &:hover {
+      text-decoration: underline;
+      color: $color-text-primary;
+    }
+  }
+  
+  .contacto {
+    p {
+      font-family: $fontamatic;
+      font-display: swap;
+      font-weight: 800;
+      font-size: 1.5em;
+    }
+  
+    a {
+      font-family: $fontamatic;
+      font-weight: 800;
+      font-size: 1.5em;
+      color: $color-font-white;
+    }
+  }
+  
+  #nuestramedia p {
+    font-weight: 600;
+    font-family: $fontamatic;
+    font-display: swap;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .text-block {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: linear-gradient($linear-gradient1,$linear-gradient2);
+    position: absolute;
+    padding: 25% 0 25% 0;
+  
+    &:hover {
+      background: linear-gradient($linear-gradient1-hover,$linear-gradient2-hover);
+    }
+  }
+  
+  .teammember .title {
+    font-size: 1.6em;
+  }
+  
+  #clientes h3 {
+    text-align: left;
+    font-size: 2em;
+  }
+  
+  .content {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+  
+    .content-overlay {
+      position: absolute;
+      height: 99%;
+      width: 100%;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      opacity: 1;
+      -webkit-transition: all 0.4s ease-in-out 0s;
+      -moz-transition: all 0.4s ease-in-out 0s;
+      transition: all 0.4s ease-in-out 0s;
+    }
+  
+    &:hover .content-overlay {
+      opacity: 1;
+    }
+  }
+  
+  .content-image {
+    max-width: 100%;
+  }
+  
+  .content-details, .content-details-celeste, .content-details-verde, .content-details-violeta, .content-details-rojo {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .content:hover {
+    .content-details {
+      top: 50%;
+      left: 50%;
+      opacity: 1;
+      background: linear-gradient($linear-gradient1-hover, $linear-gradient2-hover);
+      height: 100%;
+      padding-top: 30%;
+    }
+  
+    .content-details-violeta {
+      top: 50%;
+      left: 50%;
+      opacity: 1;
+      background: rgba(85, 1, 122, 0.46);
+      height: 100%;
+      padding-top: 30%;
+    }
+  
+    .content-details-celeste {
+      top: 50%;
+      left: 50%;
+      opacity: 1;
+      background: rgba(23, 92, 113, 0.73);
+      height: 100%;
+      padding-top: 30%;
+    }
+  
+    .content-details-rojo {
+      top: 50%;
+      left: 50%;
+      opacity: 1;
+      background: rgba(122, 36, 1, 0.73);
+      height: 100%;
+      padding-top: 30%;
+    }
+  
+    .content-details-verde {
+      top: 50%;
+      left: 50%;
+      opacity: 1;
+      background: rgba(44, 122, 1, 0.73);
+      height: 100%;
+      padding-top: 30%;
+    }
+  }
+  
+  .content-details h3, .content-details-violeta h3, .content-details-celeste h3, .content-details-verde h3, .content-details-rojo h3 {
+    color: $white-color;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .fadeIn-bottom {
+    top: 80%;
+  }
+  
+  ul.navbar-nav li a {
+    font-family: $fontamatic;
+    font-display: swap;
+    font-size: 1.6em;
+    font-weight: 800;
+  }
+  
+  .counter {
+    padding: 20px 0;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .count-title, .enfocados {
+    font-size: 80px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: $fontamatic;
+  }
+  
+  .count-text {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: 'Pangolin', cursive;
+    font-display: swap;
+  }
+  
+  .fa-2x {
+    margin: 0 auto;
+    float: none;
+    display: table;
+    color: #4ad1e5;
+  }
+  
+  
+  @media screen and (max-width: 480px) {
+    .nuestramedia {
+     font-size: 1.5em;
+   }
+   
+   #clientes h3 {
+     text-align: center;
+   }
+ }
+ 

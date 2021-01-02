@@ -1,0 +1,26 @@
+/* Formateo */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-display: swap;
+    box-sizing: border-box;
+  }
+    
+  section {
+    /* width: 1200px; */
+    max-width: 100%;
+    margin: auto;
+  }
+  
+  .swiper-container {
+    max-width: 900px;
+    height: auto;
+    z-index: -2;
+  }
+  
+  .swiperimg {
+    width: 900px;
+    max-width: 100%;
+  }

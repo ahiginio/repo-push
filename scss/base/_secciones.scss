@@ -1,0 +1,138 @@
+/* Secciones */
+  
+.almundo {
+    background-image: url(../img/bgbody.jpg);
+    background-attachment: fixed;
+  }
+  
+  .titulo-center {
+    text-align: center;
+    margin: auto;
+    background: $color-primary;
+    margin-top: 5%;
+    max-width: 50%;
+    border: 3px solid $color-primary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+  
+    h1 {
+      margin: 0 1%;
+    }
+  
+    &:hover {
+      color: $color-primary;
+      background: $color-font-white;
+      transition: all 0.4s ease-in-out 0s;
+      border: 3px solid $color-primary;
+    }
+  }
+  
+  .subtitulo-center {
+    text-align: center;
+    margin: auto;
+    background: $color-font-white;
+    margin-top: 5%;
+    max-width: 50%;
+    border: 3px solid $color-primary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+    color: $color-primary;
+  
+    h1 {
+      margin: 0 1%;
+    }
+  
+    &:hover {
+      color: $color-font-white;
+      background: $color-primary;
+      transition: all 0.4s ease-in-out 0s;
+      border: 3px solid $color-primary;
+    }
+  }
+  
+  .servicio-description {
+    margin: 5% 0;
+  }
+  
+  .nuestramedia {
+    font-weight: 600;
+    font-size: 2em;
+    font-family: 'Amatic SC', cursive;
+    font-display: swap;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #equipo {
+    background: linear-gradient($linear-gradient1, $linear-gradient1), url("img/bg-equipo.jpg");
+    max-width: 100%;
+    text-align: center;
+    width: auto;
+  }
+  
+  #servicios {
+    width: 100%;
+    background: $color-primary;
+  }
+  
+  .equipo {
+    text-align: center;
+    padding-top: 5%;
+  }
+  
+  .equipo-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 3%;
+    flex-wrap: wrap;
+  }
+  
+  .cajaicon {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .icon {
+    width: 300px;
+    margin: 3% 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    background: $color-font-white;
+    padding: 2%;
+  }
+  
+  .trabajos-container {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: auto;
+  }
+  
+  .trabajo {
+    margin: 10px;
+    position: relative;
+    -webkit-box-shadow: 1px 1px 8px 2px $box-shadow;
+    -moz-box-shadow: 1px 1px 8px 2px $box-shadow;
+    box-shadow: 1px 1px 8px 2px $box-shadow;
+  }
+  
+  .slider {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .teammember {
+    margin: 10px;
+    padding: 0;
+  }
+  

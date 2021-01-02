@@ -1,0 +1,28 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: $color-primary;
+  }
+  
+  .footer-item {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .footer-container {
+    align-items: center;
+    background: $color-primary;
+    margin-top: 10%;
+  }
+  @media screen and (max-width:480px) {
+    .social {
+      padding: 0 0 2% 0;
+    }
+  
+    .menu {
+      font-size: 0.9em;
+      padding: 2% 0;
+    }
+  }

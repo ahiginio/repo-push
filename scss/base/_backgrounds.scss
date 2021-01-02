@@ -1,0 +1,63 @@
+/* Backgrounds */
+  
+body {
+    font-family: 'Pangolin', cursive;
+    font-display: swap;
+    background-color: $color-font-white;
+  }
+  
+  header {
+    background: $color-font-white;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .color-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: $color-primary;
+    opacity: 0.6;
+    position: absolute;
+  }
+  
+  .custom-shape-divider-bottom-1607531085 {
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  
+    svg {
+      position: relative;
+      display: block;
+      width: calc(100% + 1.3px);
+      height: 150px;
+    }
+  
+    .shape-fill {
+      fill: $color-primary;
+    }
+  }
+  
+  .opacity {
+    opacity: 0.9;
+  }
+  
+  .custom-shape-divider-top-1607531173 {
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  
+    svg {
+      position: relative;
+      display: block;
+      width: calc(100% + 1.3px);
+      height: 150px;
+    }
+  
+    .shape-fill {
+      fill: $color-primary;
+    }
+  }
+  
