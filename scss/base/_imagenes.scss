@@ -88,7 +88,14 @@
   .flip-box-back {
     @include transform (rotateX(180deg));
   }
-  
+
+  /* Hover Content Details Arreglos */
+  .content-details-verde {
+    width: 85%;
+  } 
+  .content-details-rojo {
+    width: 94%;
+  }
   @media screen and (max-width:480px) {
     .flip-box {
       max-width: 50%;
