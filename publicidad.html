@@ -166,7 +166,7 @@
         <div class="container">
             <div class="row footer-container align-items-center">
                 <div class="col-12 col-sm-6 contacto text-center">
-                    <h1>Contactanos</h1>
+                    <h2>Contactanos</h2>
                     <p>Telefono: <a href="tel:+5492996736406">+54 9 299 673 6406</a></p>
                     <p>E-mail:<a href="mailto:info@mediadigital.com.ar">info@mediadigital.com.ar</a></p>
                     <div class="social footer-item">
@@ -175,31 +175,35 @@
                         <a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
                     </div>
                 </div>
+
                 <!-- Form Footer -->
                 <div class="col-12 col-sm-6 form-contact">
-                    <form action="">
+                    <form action="" method="GET">
                         <div class="form-group">
                             <label for="nombre">Nombre</label>
-                            <input type="text" name="nombre" class="form-control" placeholder="Nombre">
+                            <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Nombre">
                         </div>
                         <div class="form-group">
                             <label for="apellido">Apellido</label>
-                            <input type="text" name="apellido" class="form-control" placeholder="Apellido">
+                            <input type="text" id="apellido" name="apellido" class="form-control"
+                                placeholder="Apellido">
                         </div>
                         <div class="form-group">
                             <label for="email">Correo Electronico</label>
-                            <input type="email" name="email" class="form-control" placeholder="tucorreo@gmail.com">
+                            <input type="email" id="email" name="email" class="form-control"
+                                placeholder="tucorreo@gmail.com">
                         </div>
                         <div class="form-group">
                             <label for="telefono">Telefono</label>
-                            <input type="tel" name="telefono" class="form-control" placeholder="Telefono">
+                            <input type="tel" id="telefono" name="telefono" class="form-control" placeholder="Telefono">
                         </div>
                         <div class="form-group">
                             <label for="mensaje">Mensaje</label>
-                            <textarea class="form-control" name="mensaje" placeholder="Mensaje" rows="5"></textarea>
+                            <textarea class="form-control" id="mensaje" name="mensaje" placeholder="Mensaje"
+                                rows="5"></textarea>
                         </div>
                         <div class="form-group form-check">
-                            <input type="checkbox" name="newsletter" class="form-check-input">
+                            <input type="checkbox" id="newsletter" name="newsletter" class="form-check-input">
                             <label for="newsletter" class="form-check-label">Subscribirte al Newsletter</label>
 
                         </div>

@@ -10,6 +10,13 @@ h1, h2, h3, h4 {
     margin-bottom: 20px;
     text-align: center;
   }
+  h2 {
+    font-size:2em;
+  }
+  h4 {
+    color : $white-color;
+    font-weight: 400;
+  }
   
   .icon {
     h2 {
@@ -100,7 +107,7 @@ h1, h2, h3, h4 {
     font-size: 1em;
   }
   
-  .equipo h2 {
+  .equipo  {
     font-size: 2em;
     margin-bottom: 2px;
   }
@@ -130,7 +137,7 @@ h1, h2, h3, h4 {
     a {
       font-family: $fontamatic;
       font-weight: 800;
-      font-size: 1.5em;
+      font-size: 1.2em;
       color: $color-font-white;
     }
   }
@@ -159,7 +166,7 @@ h1, h2, h3, h4 {
   }
   
   .teammember .title {
-    font-size: 1.6em;
+    font-size: 1em;
   }
   
   #clientes h3 {
@@ -261,11 +268,12 @@ h1, h2, h3, h4 {
     }
   }
   
-  .content-details h3, .content-details-violeta h3, .content-details-celeste h3, .content-details-verde h3, .content-details-rojo h3 {
+  .content-details h4, .content-details-violeta h4, .content-details-celeste h4, .content-details-verde h4, .content-details-rojo h4 {
     color: $white-color;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 1px;
+    font-size: 1.4em;
   }
   
   .fadeIn-bottom {

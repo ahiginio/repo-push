@@ -168,6 +168,15 @@ h1, h2, h3, h4 {
   text-align: center;
 }
 
+h2 {
+  font-size: 2em;
+}
+
+h4 {
+  color: #fff;
+  font-weight: 400;
+}
+
 .icon h2 {
   font-size: 2em;
   padding-top: 5%;
@@ -247,7 +256,7 @@ p {
   font-size: 1em;
 }
 
-.equipo h2 {
+.equipo {
   font-size: 2em;
   margin-bottom: 2px;
 }
@@ -274,7 +283,7 @@ p {
 .contacto a {
   font-family: "Amatic SC", cursive;
   font-weight: 800;
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #f2f2f2;
 }
 
@@ -301,7 +310,7 @@ p {
 }
 
 .teammember .title {
-  font-size: 1.6em;
+  font-size: 1em;
 }
 
 #clientes h3 {
@@ -395,11 +404,12 @@ p {
   padding-top: 30%;
 }
 
-.content-details h3, .content-details-violeta h3, .content-details-celeste h3, .content-details-verde h3, .content-details-rojo h3 {
+.content-details h4, .content-details-violeta h4, .content-details-celeste h4, .content-details-verde h4, .content-details-rojo h4 {
   color: #fff;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px;
+  font-size: 1.4em;
 }
 
 .fadeIn-bottom {
