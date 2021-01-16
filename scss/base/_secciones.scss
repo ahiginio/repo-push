@@ -124,8 +124,13 @@
     -webkit-box-shadow: 1px 1px 8px 2px $box-shadow;
     -moz-box-shadow: 1px 1px 8px 2px $box-shadow;
     box-shadow: 1px 1px 8px 2px $box-shadow;
+    a {
+      color: $color-text-primary;
+    }
   }
-  
+  .modal-dialog {
+    max-width: 70%;
+  }
   .slider {
     margin-bottom: 20px;
     text-align: center;

@@ -128,6 +128,11 @@ section {
   -webkit-box-shadow: 1px 1px 8px 2px rgba(197, 197, 197, 0.66);
   -moz-box-shadow: 1px 1px 8px 2px rgba(197, 197, 197, 0.66);
   box-shadow: 1px 1px 8px 2px rgba(197, 197, 197, 0.66); }
+  .trabajo a {
+    color: #323232; }
+
+.modal-dialog {
+  max-width: 70%; }
 
 .slider {
   margin-bottom: 20px;
