@@ -1,11 +1,27 @@
 {
   "name": "repositorio_coder",
   "version": "1.0.0",
-  "description": "",
   "main": "counter.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss   css/style.css"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.32.4"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahiginio/repo-push.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ahiginio/repo-push/issues"
+  },
+  "homepage": "https://github.com/ahiginio/repo-push#readme",
+  "description": ""
 }

@@ -55,6 +55,10 @@ h1, h2, h3, h4 {
     padding: 10px 0;
     font-size: 20px;
     color: $color-font-white;
+    transition: all 0.3s ease;
+    &:hover {
+      transform:translateY(-5px);
+    }
   }
   
   .btn-submit {
