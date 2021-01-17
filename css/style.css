@@ -721,7 +721,8 @@ footer {
 .slick-slide {
   margin: 0px 20px; }
   .slick-slide img {
-    max-width: 100%; }
+    max-width: 100%;
+    margin: auto; }
 
 .slick-slider {
   position: relative;
